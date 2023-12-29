@@ -1,0 +1,24 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+:root {
+    --colour1:Lime;
+  }
+
+body{
+    background-color: black;
+}
+
+.mainhead1{
+  -webkit-text-stroke: 1px var(--colour1);
+  color: transparent;
+  font-size: 10rem;
+  font-weight: 900;
+  text-align: center;
+  
+}
+.swiper-pagination-bullet-active {
+  background-color: var(--colour1) !important;
+}
